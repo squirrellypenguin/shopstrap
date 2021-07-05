@@ -1,4 +1,6 @@
 <template>
+<div>
+sdfsdf
       <vue-tiny-slider v-bind="tinySliderOptions">
         <div><img class="responsive" src="http://placehold.jp/600x450.png" /></div>
         <div><img class="responsive" src="http://placehold.jp/600x450.png" /></div>
@@ -6,7 +8,7 @@
         <div><img class="responsive" src="http://placehold.jp/600x450.png" /></div>
         <div><img class="responsive" src="http://placehold.jp/600x450.png" /></div>
       </vue-tiny-slider>
-
+</div>
 </template>
 <script>
 import VueTinySlider from 'vue-tiny-slider';
