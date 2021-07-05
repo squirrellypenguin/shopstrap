@@ -10260,6 +10260,11 @@ timsort@^0.3.0:
   resolved "https://registry.npm.taobao.org/timsort/download/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tiny-slider@^2.9.2:
+  version "2.9.2"
+  resolved "https://registry.npm.taobao.org/tiny-slider/download/tiny-slider-2.9.2.tgz#dcd70ac79054a4d170bc2cfde3efbdaa2cc0c75f"
+  integrity sha1-3NcKx5BUpNFwvCz94++9qizAx18=
+
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.nlark.com/tmp/download/tmp-0.0.33.tgz?cache=0&sync_timestamp=1618847042301&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftmp%2Fdownload%2Ftmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -10808,6 +10813,14 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
+
+vue-tiny-slider@^0.1.39:
+  version "0.1.39"
+  resolved "https://registry.nlark.com/vue-tiny-slider/download/vue-tiny-slider-0.1.39.tgz#9301eada256fa12725b050767e1e67a287b3e3ef"
+  integrity sha1-kwHq2iVvoSclsFB2fh5nooez4+8=
+  dependencies:
+    lodash "^4.17.11"
+    tiny-slider "^2.9.2"
 
 vue2-google-maps@^0.10.7:
   version "0.10.7"
