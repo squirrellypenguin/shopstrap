@@ -8,10 +8,13 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link disabled" href="#">Disabled</a>
+      <router-link class="btn-secondary" to="/">Home</router-link>
+      <router-link class="btn-secondary" to="/artists">Artist</router-link>
+     <router-link class="btn-secondary" to="/about">About</router-link>
+      <router-link class="btn-secondary" to="/maps">Directions</router-link>
+       <router-link class="btn-secondary" to="/media">Media</router-link>
+        <router-link class="btn-secondary" to="/contact">Contact</router-link>
+
     </div>
   </div>
 </nav>
