@@ -1,10 +1,16 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Artists from '../views/Artists'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/artists',
+    name: 'Artists',
+    component: Artists
+  },
   {
     path: '/',
     name: 'Home',

@@ -1,0 +1,78 @@
+* {
+  outline: 1px solid red;
+  outline-offset: -1px;
+}
+// Override / set color variables
+$blue: #3399ff;
+$orange: #f26c22;
+$body-bg: rgb(242, 245, 229);
+$body-color: rgb(248, 248, 248);
+body { min-height: 100vh; }
+
+$secondary: $orange;
+
+$theme-colors: (
+  "primary": #f26c22,
+  "danger": #ff4136,
+  "secondary": $blue,
+);
+.frame {
+  background-color:rgb(248, 248, 248);
+  
+}
+
+.artist {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("http://placehold.jp/500x350.png");
+  height: 350px;
+  background-color:rgb(248, 248, 248);
+  background-size: 100% 100%;
+}
+
+
+.button-box {
+  display: flex;
+  flex-direction: column;
+}
+.gallery {    
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;    
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+  }
+  .gallery {    
+      grid-template-columns: repeat(3, 1fr);   
+   }
+}
+
+
+@media only screen and (max-width: 720px) {
+  body {
+    background-color: lightblue;
+  }
+  .gallery {    
+      grid-template-columns: repeat(2, 1fr);   
+   }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+  .gallery {    
+      grid-template-columns: repeat(1, 1fr);   
+   }
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+// BootstrapVue and its default variables
+// @import '../node_modules/bootstrap-vue/src/index.scss';
