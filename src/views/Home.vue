@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-  <div class="jumbotron">
-
+ <div class="container">
+  <Media />
+  </div>
+  <div class="caption" >
   <h1 class="display-4">Island Craft Shop</h1>
   <p class="lead">An artisan cooperative.</p>
   <hr class="my-4">
@@ -9,20 +11,43 @@
   <p class="lead">
   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </p>
-  
-</div>
+  </div>
+
 
 </div>
 
 </template>
-
+<style scoped>
+.home {
+  color: white;
+}
+.caption {
+  margin-top: -400px;
+  width: 600px;
+  z-index: 110;
+  background-color:brown;
+  position: relative;
+  }
+.container {
+  display: grid; 
+  justify-items: end;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "."; 
+}
+.splide {
+  z-index: 0;
+}
+</style>
 <script>
 // @ is an alias to /src
-
+import Media from './Media.vue'
 export default {
   name: 'Home',
   components: {
-          
+          Media
   }
 }
 </script>

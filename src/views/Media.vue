@@ -1,33 +1,38 @@
 <template>
-<div>
-sdfsdf
-      <vue-tiny-slider v-bind="tinySliderOptions">
-        <div><img class="responsive" src="http://placehold.jp/600x450.png" /></div>
-        <div><img class="responsive" src="http://placehold.jp/600x450.png" /></div>
-        <div><img class="responsive" src="http://placehold.jp/600x450.png" /></div>
-        <div><img class="responsive" src="http://placehold.jp/600x450.png" /></div>
-        <div><img class="responsive" src="http://placehold.jp/600x450.png" /></div>
-      </vue-tiny-slider>
-</div>
+  <splide :options="options">
+    <splide-slide>
+      <p><img class="responsive" src="https://dummyimage.com/800x600/000/fff.png&text=1" /> </p>
+    </splide-slide>
+    <splide-slide>
+      <p><img src="https://dummyimage.com/800x600/000/fff.png&text=2" /> </p>
+    </splide-slide>
+    <splide-slide>
+      <p><img src="https://dummyimage.com/800x600/000/fff.png&text=3" /> </p>
+    </splide-slide>
+  </splide>
 </template>
+
 <script>
-import VueTinySlider from 'vue-tiny-slider';
-export default { 
-    name: 'Media',
-    components: {
-      'vue-tiny-slider': VueTinySlider
-    },
-    data() {
-    return {
-      tinySliderOptions: {
-        mouseDrag: true,
-        loop: false,
-        items: 1,
-        swipeAngle: 45,
-        
-        viewportMax: 600,
-      },
-    };
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+export default {
+  components: {
+    Splide,
+    SplideSlide,
   },
+   data() {
+      return {
+        options: {
+          rewind : true,
+          width: 800,
+          cover: true,
+          gap: '1rem',
+          autoplay: true,
+          pauseOnHover: false,
+          type  : 'fade',
+        },
+      };
+    },
 }
+
 </script>

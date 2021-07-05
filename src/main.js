@@ -10,6 +10,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import * as VueGoogleMaps from 'vue2-google-maps'
 import './assets/styles/custom.scss'
+import VueSplide from '@splidejs/vue-splide';
+
+Vue.use( VueSplide );
 
 dom.watch()
 library.add(fas, fab, far)
