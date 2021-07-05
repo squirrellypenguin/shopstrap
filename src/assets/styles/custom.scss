@@ -63,7 +63,38 @@ $theme-colors: (
   grid-row-gap: 20px;    
 }
 
+.notes {
+  background-color:cadetblue;
+  height: 400px;
+  width: 405px;
+  margin-left: 30px;
+}
 
+.caption {
+  margin-top: -400px;
+  margin-left: 100px;
+  width: 600px;
+  z-index: 110;
+  background-color:brown;
+  position: relative;
+  }
+
+@media only screen and (max-width: 1350px) {
+  body {
+    background-color: lightblue;
+  }
+  .gallery {    
+      grid-template-columns: repeat(3, 1fr);   
+   }
+   .notes {
+    background-color: yellowgreen;
+    margin-top: 225px;
+    height: 200px;
+    width: 840px;
+    margin-left: 20px;
+    z-index: 110;
+  }
+}
 
 @media only screen and (max-width: 1200px) {
   body {
@@ -72,6 +103,14 @@ $theme-colors: (
   .gallery {    
       grid-template-columns: repeat(3, 1fr);   
    }
+   .notes {
+    background-color:blanchedalmond;
+ 
+  }
+  .caption{
+    margin-left: 60px;
+    background-color: pink;
+  }
 }
 
 
@@ -87,12 +126,20 @@ $theme-colors: (
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 678px) {
   body {
     background-color: blue;
   }
   .gallery {    
       grid-template-columns: repeat(1, 1fr);   
+   }
+   .caption{
+     margin-left: 20px;
+     background-color: salmon;
+     width: 300px;
+   }
+   .notes {
+     width: 300px;
    }
 }
 

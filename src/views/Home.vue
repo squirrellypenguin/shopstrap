@@ -12,7 +12,8 @@
   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </p>
   </div>
-
+  <div class="notes">
+  </div>
 
 </div>
 
@@ -21,15 +22,12 @@
 .home {
   color: white;
 }
-.caption {
-  margin-top: -400px;
-  width: 600px;
-  z-index: 110;
-  background-color:brown;
-  position: relative;
-  }
+
+
 .container {
   display: grid; 
+  right: 0;
+  
   justify-items: end;
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr; 

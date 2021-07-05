@@ -11,9 +11,11 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 import * as VueGoogleMaps from 'vue2-google-maps'
 import './assets/styles/custom.scss'
 import VueSplide from '@splidejs/vue-splide';
-
+import BootstrapVue from "bootstrap-vue"
+import 'bootstrap'
 Vue.use( VueSplide );
 
+Vue.use(BootstrapVue)
 dom.watch()
 library.add(fas, fab, far)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
