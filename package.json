@@ -26,6 +26,7 @@
     "sass-dart": "^1.0.0-alpha.1",
     "vue": "^2.6.11",
     "vue-router": "^3.5.2",
+    "vue2-google-maps": "^0.10.7",
     "webpack": "^5.42.0"
   },
   "devDependencies": {

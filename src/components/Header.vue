@@ -9,11 +9,11 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <router-link class="btn-secondary" to="/">Home</router-link>
-      <router-link class="btn-secondary" to="/artists">Artist</router-link>
+      <router-link class="btn-secondary" to="/artists">Artists</router-link>
      <router-link class="btn-secondary" to="/about">About</router-link>
-      <router-link class="btn-secondary" to="/maps">Directions</router-link>
        <router-link class="btn-secondary" to="/media">Media</router-link>
-        <router-link class="btn-secondary" to="/contact">Contact</router-link>
+      <router-link class="btn-secondary" to="/maps">Speak & Meet</router-link>
+        
 
     </div>
   </div>

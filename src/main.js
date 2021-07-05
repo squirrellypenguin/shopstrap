@@ -8,11 +8,20 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { far } from '@fortawesome/free-regular-svg-icons'
+import * as VueGoogleMaps from 'vue2-google-maps'
 
 dom.watch()
 library.add(fas, fab, far)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 // Vue.config.productionTip = false
+
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: 'AIzaSyABHQe7J6OOFzhEhAabIcasklxhDP_kfr0',
+    libraries: 'places',
+  }
+});
+
 
 new Vue({
   router,

@@ -1,11 +1,16 @@
 <template>
+<div>
   <div id="app">
-    <div id="nav">
-   
-    <Header />
-    
-    </div>
-    <router-view/>
+      <div id="nav">
+        <Header />
+      </div>
+      <router-view/>
+  </div>
+  <footer class="footer">
+  <a href="https://www.facebook.com/Island-Craft-Shop-189477107771345/" alt="FB"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook' }"/></a>
+  <a href="https://www.instagram.com/vtislandcraftshop" alt="insta"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></a>
+  <a href="https://www.instagram.com/vtislandcraftshop" alt="twitter"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }"/></a>
+  </footer>
   </div>
 </template>
 
@@ -19,10 +24,7 @@
   color: #2c3e50;
 }
 
-#nav {
 
-
-}
 </style>
 <script>
 import Header from '@/components/Header.vue'
