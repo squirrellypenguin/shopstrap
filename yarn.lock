@@ -2502,6 +2502,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.npm.taobao.org/boolbase/download/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+bootstrap-scss@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.nlark.com/bootstrap-scss/download/bootstrap-scss-5.0.2.tgz#ada65d2879038bb347b57c6575b46d5ec7656a79"
+  integrity sha1-raZdKHkDi7NHtXxldbRtXsdlank=
+
 bootstrap-vue@^2.21.2:
   version "2.21.2"
   resolved "https://registry.nlark.com/bootstrap-vue/download/bootstrap-vue-2.21.2.tgz#ec38f66c3a2205becccddb6158a991d96509ed0b"

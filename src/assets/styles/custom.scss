@@ -4,7 +4,7 @@
 }
 // Override / set color variables
 $blue: #3399ff;
-$orange: #f26c22;
+$orange: #22f2e1;
 $body-bg: rgb(242, 245, 229);
 $body-color: rgb(248, 248, 248);
 body { min-height: 100vh; }
@@ -12,7 +12,7 @@ body { min-height: 100vh; }
 $secondary: $orange;
 
 $theme-colors: (
-  "primary": #f26c22,
+  "primary": #d322f2,
   "danger": #ff4136,
   "secondary": $blue,
 );
@@ -73,6 +73,6 @@ $theme-colors: (
    }
 }
 
-@import '../node_modules/bootstrap/scss/bootstrap';
+// @import '../node_modules/bootstrap/scss/bootstrap';
 // BootstrapVue and its default variables
 // @import '../node_modules/bootstrap-vue/src/index.scss';
