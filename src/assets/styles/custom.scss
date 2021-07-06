@@ -58,7 +58,7 @@ $theme-colors: (
 }
 //Adjust the sizeof the carsouel 
 #tns1-ow {
-  width: 500px;
+  width:100%;
 }
 
 .button-box {
@@ -117,7 +117,7 @@ z-index: 110;
   }
   .splide {
     z-index: 0;
-    width: 100%;
+    width: 800px;
   }
   .images {
     display: grid;
@@ -129,6 +129,12 @@ z-index: 110;
     color: white;
     font-size: 6rem;
     
+  }
+
+
+  .responsive {
+    width: 100%;
+    height: auto;
   }
 @media only screen and (max-width: 1350px) {
   body {
@@ -163,7 +169,7 @@ z-index: 110;
     background-color: pink;
   }
 }
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 980px) {
   .images {
     display: grid;
     grid-template-columns: 1fr;
@@ -171,8 +177,13 @@ z-index: 110;
   iframe {
     width: 100%;
    }
+ 
 }
-
+@media only screen and (max-width: 790px) {
+.splide {
+  margin-left: -95px;
+}
+}
 @media only screen and (max-width: 720px) {
   body {
     background-color: lightblue;
@@ -191,18 +202,14 @@ z-index: 110;
     font-size: 2rem;
     
   }
-}
-
-@media only screen and (max-width: 678px) {
-  body {
-    background-color: blue;
+  .splide {
+    z-index: 0;
+    width: 600px;
+    margin-left: -90px;
   }
-  .gallery {    
-      grid-template-columns: repeat(1, 1fr);   
-   }
-   .caption{
+  .caption{
     margin-left: 5%;
-     background-color: green;
+     background-color: lightgoldenrodyellow;
      width: 85%;
      margin-top: 50px;
    }
@@ -215,6 +222,16 @@ z-index: 110;
    }
    .container {
      display: none;
+   }
+
+}
+
+@media only screen and (max-width: 695px) {
+  body {
+    background-color: blue;
+  }
+  .gallery {    
+      grid-template-columns: repeat(1, 1fr);   
    }
 
 

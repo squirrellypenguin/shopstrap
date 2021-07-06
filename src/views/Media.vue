@@ -4,13 +4,13 @@
 
   <splide :options="options">
     <splide-slide>
-      <p><img class="responsive" src="https://dummyimage.com/800x600/000/fff.png&text=1" /> </p>
+      <p><img class="resposnive"  src="https://dummyimage.com/800x600/000/fff.png&text=1" /> </p>
     </splide-slide>
     <splide-slide>
-      <p><img src="https://dummyimage.com/800x600/000/fff.png&text=2" /> </p>
+      <p><img  class="resposnive" src="https://dummyimage.com/800x600/000/fff.png&text=2" /> </p>
     </splide-slide>
     <splide-slide>
-      <p><img src="https://dummyimage.com/800x600/000/fff.png&text=3" /> </p>
+      <p><img  class="resposnive" src="https://dummyimage.com/800x600/000/fff.png&text=3" /> </p>
     </splide-slide>
   </splide>
   </div>
@@ -36,12 +36,12 @@ export default {
           pauseOnHover: false,
           type  : 'fade',
           breakpoints: {
-            920: {
+            980: {
               width: 700,
             },
            
-            690: {
-              width: 580,
+            775: {
+              width: 700,
             },
            
           },
