@@ -10894,6 +10894,11 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
+vue-youtube-embed@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.npm.taobao.org/vue-youtube-embed/download/vue-youtube-embed-2.2.2.tgz#e4fc27bc09ecd77488e6709f7c6694585c972d2d"
+  integrity sha1-5PwnvAns13SI5nCffGaUWFyXLS0=
+
 vue2-google-maps@^0.10.7:
   version "0.10.7"
   resolved "https://registry.npm.taobao.org/vue2-google-maps/download/vue2-google-maps-0.10.7.tgz#2e4c1239386001bd47777d8c6a0475e5320cc3a8"

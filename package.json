@@ -28,6 +28,7 @@
     "vue": "^2.6.11",
     "vue-router": "^3.5.2",
     "vue-slick-carousel": "^1.0.6",
+    "vue-youtube-embed": "^2.2.2",
     "vue2-google-maps": "^0.10.7",
     "webpack": "^5.42.0"
   },

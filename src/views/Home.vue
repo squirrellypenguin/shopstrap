@@ -12,32 +12,14 @@
   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </p>
   </div>
-  <div class="notes">
+  <div class="notes">NOTES
   </div>
 
 </div>
 
 </template>
 <style scoped>
-.home {
-  color: white;
-}
 
-
-.container {
-  display: grid; 
-  right: 0;
-  
-  justify-items: end;
-  grid-template-columns: 1fr; 
-  grid-template-rows: 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "."; 
-}
-.splide {
-  z-index: 0;
-}
 </style>
 <script>
 // @ is an alias to /src

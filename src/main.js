@@ -13,6 +13,10 @@ import './assets/styles/custom.scss'
 import VueSplide from '@splidejs/vue-splide';
 import BootstrapVue from "bootstrap-vue"
 import 'bootstrap'
+
+import VueYouTubeEmbed from 'vue-youtube-embed'
+Vue.use(VueYouTubeEmbed)
+
 Vue.use( VueSplide );
 
 Vue.use(BootstrapVue)

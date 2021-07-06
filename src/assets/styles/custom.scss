@@ -19,13 +19,16 @@ $theme-colors: (
 #app {
   min-height: calc(100vh - 70px);
 }
+.navbar {
+  height: 10%;
+}
 .footer {
   position: absolute;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 69px;
   width: 100%;
   background-color: #CCC;
-  font-size: 48px;
+  font-size: 36px;
 }
 .frame {
   background-color:rgb(248, 248, 248);
@@ -67,18 +70,41 @@ $theme-colors: (
   background-color:cadetblue;
   height: 400px;
   width: 405px;
-  margin-left: 30px;
+  margin-left: 5%;
+  position: relative;
+z-index: 110;
 }
 
 .caption {
   margin-top: -400px;
-  margin-left: 100px;
+  margin-left: 5%;
   width: 600px;
   z-index: 110;
   background-color:brown;
   position: relative;
   }
 
+  
+  
+  .container {
+    display: grid; 
+    right: 0;
+    
+    justify-items: end;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."; 
+  }
+  .splide {
+    z-index: 0;
+    width: 100%;
+  }
+  .images {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
 @media only screen and (max-width: 1350px) {
   body {
     background-color: lightblue;
@@ -90,7 +116,7 @@ $theme-colors: (
     background-color: yellowgreen;
     margin-top: 225px;
     height: 200px;
-    width: 840px;
+    width: 96%;
     margin-left: 20px;
     z-index: 110;
   }
@@ -112,7 +138,15 @@ $theme-colors: (
     background-color: pink;
   }
 }
-
+@media only screen and (max-width: 920px) {
+  .images {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  iframe {
+    width: 100%;
+   }
+}
 
 @media only screen and (max-width: 720px) {
   body {
@@ -124,6 +158,7 @@ $theme-colors: (
    .map {
      grid-template-columns: 1fr;
    }
+
 }
 
 @media only screen and (max-width: 678px) {
@@ -134,13 +169,23 @@ $theme-colors: (
       grid-template-columns: repeat(1, 1fr);   
    }
    .caption{
-     margin-left: 20px;
+     margin-left: 5%;
+     margin-right: 50px;
      background-color: salmon;
-     width: 300px;
+     width: 85%;
+     margin-top: 50px;
    }
    .notes {
-     width: 300px;
+     width: 85%;
+     margin-top: 100px;
+     margin-left: 5%;
+     margin-right: 50px;
    }
+   .container {
+     display: none;
+   }
+  
+
 }
 
 //@import '../node_modules/bootstrap/scss/bootstrap';

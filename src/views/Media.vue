@@ -1,4 +1,7 @@
 <template>
+<div>
+
+
   <splide :options="options">
     <splide-slide>
       <p><img class="responsive" src="https://dummyimage.com/800x600/000/fff.png&text=1" /> </p>
@@ -10,6 +13,7 @@
       <p><img src="https://dummyimage.com/800x600/000/fff.png&text=3" /> </p>
     </splide-slide>
   </splide>
+  </div>
 </template>
 
 <script>
@@ -22,6 +26,7 @@ export default {
   },
    data() {
       return {
+        videoid: "nmsZRw-RWYI",
         options: {
           rewind : true,
           width: 800,
@@ -30,6 +35,16 @@ export default {
           autoplay: true,
           pauseOnHover: false,
           type  : 'fade',
+          breakpoints: {
+            920: {
+              width: 700,
+            },
+           
+            690: {
+              width: 580,
+            },
+           
+          },
         },
       };
     },
