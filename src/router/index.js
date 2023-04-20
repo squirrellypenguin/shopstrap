@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Artists from '../views/Artists'
 
+
 Vue.use(VueRouter)
 
 const routes = [
